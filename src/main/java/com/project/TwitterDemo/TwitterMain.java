@@ -9,9 +9,9 @@ import twitter4j.conf.ConfigurationBuilder;
 
 @Component
 @Configurable
-public class TwitterUtil {
+public class TwitterMain {
 
-  Twitter twitter = null;
+  Twitter twitter;
 
   @Autowired
   protected TwitterAuthConfig twitterConfig;
